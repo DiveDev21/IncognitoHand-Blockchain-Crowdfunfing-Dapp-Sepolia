@@ -56,13 +56,13 @@ export default function Footer() {
         <Heading
           textAlign={useBreakpointValue({ base: "center", md: "left" })}
           fontFamily={"heading"}
-          color={useColorModeValue("teal.800", "white")}
+          color={useColorModeValue("blue.800", "white")}
           as="h2"
           size="lg"
         >
           <Box
             as={"span"}
-            color={useColorModeValue("teal.400", "teal.300")}
+            color={useColorModeValue("blue.400", "blue.300")}
             position={"relative"}
             zIndex={10}
             _after={{
@@ -72,11 +72,11 @@ export default function Footer() {
               bottom: 0,
               w: "full",
               h: "30%",
-              bg: useColorModeValue("teal.100", "teal.900"),
+              bg: useColorModeValue("blue.100", "blue.900"),
               zIndex: -1,
             }}
           >
-            <NextLink href="/">🤝BetterFund</NextLink>
+            <NextLink href="/">🤝IncognitoHand</NextLink>
           </Box>
         </Heading>
         <Stack direction={"row"} spacing={6}>
@@ -109,7 +109,7 @@ export default function Footer() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>🌐 Made while 💩 by Harsh, Hritvik , Nischal & Aaditya</Text>
+          <Text>🌐 Made by Divesh and Boppana With help of  Harsh, Hritvik , Nischal & Aaditya</Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton label={"Website"} href={"https://harshbadhai.me/"}>
               {" "}
